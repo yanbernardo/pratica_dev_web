@@ -1,5 +1,67 @@
-img {
+* {
+box-sizing: border-box;
+}
+
+
+body {
+    margin: 0px;
+    background-color: lightcyan;
+}
+header {
+    background-color: pink;
+    box-shadow: 10px 10px 15px pink;
+    margin-top: auto;
+}
+header img {
+    display: block;
+    margin: auto;
+}
+
+nav ul {
+    padding-left: 0;
+    margin: 0;
+    font-weight: bolder;
+    width: auto;
+}
+
+nav li{
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: rgba(71, 71, 71, 0.993);
+    padding: 20px 23.68%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li a:hover {
+    background-color: rgb(252, 113, 136);
+    
+}
+
+main {
+    margin-left: 8px;
+    text-align: center;
+}
+main img {
     height: 250px;
     width: 400px;
     margin: 10px;
+    box-shadow: 10px 10px 5px pink;
+}
+
+main img:hover {
+    box-shadow: 10px 10px 5px black;
+}
+
+footer {
+    margin-bottom: auto;
+    text-align: center;
+}
+
+footer p {
+    color: rgba(0, 0, 0, 0.521);
+    margin-bottom: 0px;
+    t
 }
