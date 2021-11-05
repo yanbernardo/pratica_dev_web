@@ -17,27 +17,30 @@ header img {
     margin: auto;
 }
 
-nav ul {
-    padding-left: 0;
+ul {
+    list-style: none;
+    padding: 0;
     margin: 0;
-    font-weight: bolder;
-    width: auto;
+    display: flex;
+    justify-content: space-around;
 }
 
-nav li{
-    display: inline;
+li {
+    width: 50%;
+    height: 40px;
+    text-align: center;
 }
 
 li a {
     text-decoration: none;
-    color: rgba(71, 71, 71, 0.993);
-    padding: 20px 23.68%;
+    color: rgba(0, 0, 0, 0.438);
+    padding: 1em 47%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
 }
 
 li a:hover {
-    background-color: rgb(252, 113, 136);
-    
+    background-color: rgb(255, 134, 154);
 }
 
 main {
@@ -63,5 +66,4 @@ footer {
 footer p {
     color: rgba(0, 0, 0, 0.521);
     margin-bottom: 0px;
-    t
 }
