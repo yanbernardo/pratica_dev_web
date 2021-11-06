@@ -34,7 +34,7 @@ li {
 li a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.438);
-    padding: 1em 47%;
+    padding: 1em 47.72%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
 }
@@ -48,10 +48,9 @@ main {
     text-align: center;
 }
 main img {
-    height: 250px;
-    width: 400px;
-    margin: 10px;
-    box-shadow: 10px 10px 5px pink;
+    height: 23.14%;
+    width: 25.83%;
+    margin: 5px 5px 0px 5px;
 }
 
 main img:hover {
@@ -61,9 +60,116 @@ main img:hover {
 footer {
     margin-bottom: auto;
     text-align: center;
+    background-color: darkslategrey;
+    height: 40px;
+    bottom: auto;
 }
 
 footer p {
-    color: rgba(0, 0, 0, 0.521);
     margin-bottom: 0px;
+    padding-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.container {
+    border: 10px rgb(255, 134, 154) double;
+    width: 75%;
+    height: fit-content;
+    padding-bottom: 60px;
+    margin: 40px auto 0 auto;
+    color: rgb(39, 105, 160);
+    font-size: 15pt;
+}
+
+.price {
+    color: white;
+    font-weight: bold;
+    display: inline;
+    font-size: medium;
+    background-color: rgb(250, 128, 114);
+    margin: 50px 0 15px 20%;
+    padding: 10px;
+    border: 5px dotted whitesmoke;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgb(250, 128, 114);
+}
+
+.title {
+    text-align: center;
+    font-size: 25pt;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.desc {
+    opacity: 0;
+    color: darkgray;
+    font-weight: bolder;
+}
+
+.cardwrap {
+    display: inline;
+}
+
+    #cardwrap--1:hover .desc {
+        opacity: 0.9;
+        transition: opacity 1.0s;
+    }
+
+    #cardwrap--2:hover .desc {
+        opacity: 0.9;
+        transition: opacity 1.0s;
+    }
+
+    #cardwrap--3:hover .desc {
+        opacity: 1;
+        transition: opacity 1.0s;
+    }
+
+    #cardwrap--4:hover .desc {
+        opacity: 1;
+        transition: opacity 1.0s;
+    }
+
+    #cardwrap--5:hover .desc {
+        opacity: 1;
+        transition: opacity 1.0s;
+    }
+
+    #cardwrap--6:hover .desc {
+        opacity: 1;
+        transition: opacity 1.0s;
+    }
+
+div#sobre {
+    color: rgb(58, 58, 58);
+    text-align: center;
+}
+
+div#sobre h2 {
+    font-size: 30pt;
+}
+
+div#sobre h6 {
+    font-style: normal;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+div#sobre p {
+    font-size: 16pt;
+    font-style: italic;
+    font-weight: bold;
+}
+
+div#sobre img {
+    height: 300px;
+
+}
+
+.coment {
+    margin-top: 20px;
+    height: 100px;
 }

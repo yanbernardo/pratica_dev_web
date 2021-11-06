@@ -1,2 +1,5 @@
-let produto = document.getElementsByClassName('produto')
 
+function comentar() {
+    let comentario = document.getElementsByClassName('coment')
+    
+}

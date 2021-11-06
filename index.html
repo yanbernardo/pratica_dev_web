@@ -15,22 +15,104 @@
         <nav>
             <ul>
                 <li><a href="#">INÍCIO</a></li>
-                <li><a href="#">SOBRE</a></li>
+                <li><a href="#sobre">SOBRE</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h2>Confira alguns de nossos bolos</h2>
-        <img src="imagens/bolo-abacaxi-coco-potinho.jpg" alt="Bolo_1" class="produto">
-        <img src="imagens/bolo-de-pote-brigadeiro-brigadeiro-2400x1600.jpg" alt="Bolo_2" class="produto">
-        <img src="imagens/bolo-de-pote-de-prestigio-1200x900-1.jpg" alt="Bolo_3" class="produto">
+        <div class="container">
+            <h2 class="title">Confira alguns de nossos sabores</h2>
 
-        <h2>Temos também trufas quadradas RECHEADAS</h2>
-        <img src="imagens/trufa_pequena_quadrada.jpg" alt="Bolo_1" class="produto">
-        <img src="imagens/trufa-quadrada-trufa-dourada_60.jpg" alt="Bolo_2" class="produto">
-        <img src="imagens/trufa_quadrada_decorada.jpg" alt="Bolo_3" class="produto">
-        <p>Quer saber mais? <br> Entre em contato pelo WhatsApp: (21)xxxxx-xxxx</p>
+            <div class="cards">
+
+                <div class="card card--1">
+                    <h3>Abacaxi com Coco</h3>
+                    <div class="cardwrap" id="cardwrap--1">
+                        <img src="imagens/bolo-abacaxi-coco-potinho.jpg" alt="Bolo de Abacaxi e Coco" id="img-1"><br>
+                        <p class="desc">Um delicioso bolo de pote com pedaços de abacaxi e coco ralado</p>
+                    </div>
+                    <p class="price">R$3.99</p><br>
+                    <button>Encomendar</button>
+                </div>
+
+                <div class="card card--2">
+                    <h3>Brigadeiro</h3>
+                    <div class="cardwrap" id="cardwrap--2">
+                        <img src="imagens/bolo-de-pote-brigadeiro-brigadeiro-2400x1600.jpg" alt="Bolo de pote Brigadeiro" id="img-2"><br>
+                        <p class="desc">Um delicioso bolo de pote de chocolate com granulados</p>
+                    </div>
+                    <p class="price">R$3.99</p><br>
+                    <button>Encomendar</button>
+                </div>
+
+                <div class="card card--3">
+                    <h3>Prestígio</h3>
+                    <div id="cardwrap--3" class="cardwrap">
+                        <img src="imagens/bolo-de-pote-de-prestigio-1200x900-1.jpg" alt="Bolo de pote Prestígio" id="img-3"><br>
+                        <p class="desc">Um delicioso bolo de pote de sabor prestígio</p>
+                    </div>
+                    <p class="price">R$3.99</p><br>
+                    <button onclick="">Encomendar</button>
+                </div>
+                
+            </div>
+
+            <h2 class="title">Temos também trufas quadradas RECHEADAS</h2>
+
+            <div class="cards">
+                
+                        <div class="card card--4">
+                            <h3>Trufas Coração Dourado</h3>
+                            <div class="cardwrap" id="cardwrap--4">
+                                <img src="imagens/trufa_pequena_quadrada.jpg" alt="Trufa Quadrada" id="img-4"><br>
+                                <p class="desc">Trufas para quem tem aquele coração de ouro</p>
+                            </div>
+                            <p class="price">R$3.99</p><br>
+                            <button>Encomendar</button>
+                        </div>
+                        <div class="card card--5">
+                            <h3>Trufa Especial 60 anos</h3>
+                            <div class="cardwrap" id="cardwrap--5">
+                                <img src="imagens/trufa-quadrada-trufa-dourada_60.jpg" alt="Trufa Quadrada" id="img-5"><br>
+                                <p class="desc">Trufa para comemorar a melhor idade!!</p>
+                            </div>
+                            <p class="price">R$3.99</p><br>
+                            <button>Encomendar</button>
+                        </div>
+                        <div class="card card--6">
+                            <h3>Trufas decoradas</h3>
+                            <div class="cardwrap" id="cardwrap--6">
+                                <img src="imagens/trufa_quadrada_decorada.jpg" alt="Trufa Quadrada" id="img-6"><br>
+                                <p class="desc">Experimente nossas novas trufas decoradas</p>
+                            </div>
+                            <p class="price">R$3.99</p><br>
+                            <button>Encomendar</button>
+                        </div>
+            </div>
+
+        </div><!--Final do Container principal-->
+
+        
+        
     </main>
+
+    <h2 class="title">Adicionar Comentário</h2>
+    <form action="">
+        Comentário: <input class="coment" type="text">
+        <input type="button" value="Enviar">
+    </form>
+    
+
+    <div id="sobre">
+        <h2>Quem somos?</h2>
+            <img src="imagens/doces-confeitaria.png" alt="">
+            <p>"Somos uma pequena confeitaria situada no município de Belford Roxo na Baixada Fluminense.</p>
+            <p>Contamos com alguns anos de experiência na fabricação de bolo, e decidimos investir em um mercado crescente que é o de bolo de pote.<br>
+            No começo nada é facil, porém, após um ano no mercado conseguimos nos estabelecer e consolidar vários clientes fiéis de nosso negócio.<br>
+            Qualquer dúvida é só entrar em contato!!"</p>
+            
+            <h6>Quer saber mais? <br> Entre em contato pelo WhatsApp: (21)xxxxx-xxxx</h6>
+    </div>
     <footer>
         <p>Site desenvolvido por Yan Bernardo&trade;</p>
     </footer>
